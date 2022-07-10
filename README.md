@@ -1,6 +1,6 @@
 # Network Id: 192.168.4.0/24 
 
-In order to devide it to 8 subnets you'll need /27. In each of the networks you''l have 32 total addresses and 30 usable hosts.  
+In order to divide it to 8 subnets you'll need /27. In each of the networks you''l have 32 total addresses and 30 usable hosts.  
 
 192.168.4.0 /27  
 
