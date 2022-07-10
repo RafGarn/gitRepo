@@ -24,7 +24,7 @@ In order to devide it to 8 subnets you'll need /27. In each of the networks you'
 
 When you enter a URL, the computer doesn’t know English so it needs to go to the DNS which will resolve the name to an IP.  
 
-First it’ll go to the dns which is your router, and search for a matching IP in his datatbase. If he doesnt find it he will go to the DNS datatbase which is on the ISP’s router.  
+First it’ll go to the dns which is your router, and search for a matching IP in his datatbase. If he doesn't find it he will go to the DNS datatbase which is on the ISP’s router.  
 
 Now your computer knows where to forward it and will send an HTTP request to the server from which you want to get the web page. For example, Amazon.  
 
@@ -35,5 +35,6 @@ The internet or the public network, uses public addresses. In that way when you 
 You also have Mac addresses and when going to your router the destination mac address will be the mac address of your router. When it hits the router, he sees the destination ip address which is Amazon’s but unpackes the mac address of its own and the src and replaces it with the new mac addresses. Source mac: his own, destination mac: next hop router. This happens with every single router all the way to the router at the Amazon’s data center which then forwards it to the switch and the switch to the server...to the desirable port.  
 
 When the amazon server responds, the destination IP will be your public IP and the ISP’s router knows to forward it back to your computer.  
+
 
 ![image](https://user-images.githubusercontent.com/98810962/178142289-1082821b-8d13-47ab-87a2-293465021f2a.png)
